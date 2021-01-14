@@ -170,3 +170,46 @@ progress::-moz-progress-bar {
 	font-size: 12px;
 	font-weight: 500;
 }
+.gallery-wrap{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.gallery__img{
+	width: 25%;
+	height: 25vw;
+	background-color: #cfcfcf;
+}
+.check_more{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.check-more__text{
+	padding: 46px 0;
+	text-transform: uppercase;
+	font-size: 12px;
+	color:#787878;
+
+}
+.container-work{
+	width: 1171px;
+	margin: 100px auto;
+	display: flex;
+	justify-content: center;
+}
+.work-wrap{
+text-align: center;	
+}
+.work__title{
+	margin-bottom: 40px;
+}
+.work__description{
+	margin-bottom: 57px;
+	color:#787878;
+}
+.work__video{
+	width: 1170px;
+	height: 570px;
+	border:1px solid black;
+}
