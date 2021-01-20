@@ -364,3 +364,74 @@ input[name="radio"]{
 #r3:checked ~ .s3{
 	opacity: 1;
 }
+.clients-container{
+	width: 1171px;
+	padding: 64px 0;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.contact-form{
+	padding: 100px 0;
+}
+.contact__block{
+display: flex;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+}
+.form-wrap form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+
+
+}
+.contact__title{
+	margin-bottom: 35px;
+}
+.contact__description{
+	color:#787878;
+	margin-bottom: 35px;
+}
+.form-name{
+	font-family: 'Montserrat', sans-serif;
+	height: 50px;
+	width: 320px;
+	margin-right: 30px;
+	border: none;
+	padding: 18px 20px;
+}
+.form-mail{
+	font-family: 'Montserrat', sans-serif;
+	height: 50px;
+	width: 320px;
+	border: none;
+	padding: 18px 20px;
+}
+.form-title{
+	font-family: 'Montserrat', sans-serif;
+	height: 50px;
+	width: 670px;
+	margin: 30px 0;
+	border: none;
+	padding: 18px 20px;
+}
+.form-comment{
+	font-family: 'Montserrat', sans-serif;
+	width: 670px;
+	height: 170px;
+	border: none;
+	padding: 18px 20px;
+}
+.form-button{
+	width: 180px;
+	height: 55px;
+	background-color:#13c9c4;
+	color:#fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	border:none;
+}
