@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+	margin:0;
+	box-sizing: border-box;
+}
+a{
+		text-decoration: none;
+		color:#bcbcbc;
+}
+body{
+font-family: 'Montserrat', sans-serif;
+}
+.container{
+	width: 1171px;
+	margin: 0 auto;
+	}
+.nav-wrap{
+	display: flex;
+	justify-content: space-between;
+	padding: 45px 0;
+}
+.header-logo{
+}
+.header-nav{
+	display: flex;
+	align-items: center;
+}
+.header-nav__link{
+
+	text-decoration: none;
+	color:#191919;
+	text-transform: uppercase;
+	margin-left: 30px;
+	font-size: 12px;
+	font-weight: 900;
+
+}
+.header-nav__link:hover{
+	color:#13c9c4;
+}
+.banner{
+	background-color: #141414;
+	color:#fff;
+	opacity: 0.8;
+	padding: 120px 0;
+}
+.banner-wrap{
+	text-align: center;
+}
+.banner-wrap h1{
+	font-size: 38px;
+	font-weight: 500;
+	margin-bottom: 38px;
+}
+.banner-wrap p{
+	font-size: 18px;
+	font-weight: 400;
+}
+.achievements{
+	background-color: #10c9c3;
+	color: #fff;
+}
+.container__achievements{
+	width: 1171px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+.achievements__wrap{
+	display: flex;
+	justify-content: space-between;
+}
+.achievements__block{
+	display:flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+}
+.achievements__block img{
+	width: 40px;
+	height: 40px;
+	margin-right: 27px;
+}
+.achievements__block div{
+	line-height: 25px;
+	height: 40px;
+}
+.achievements__block h2{
+	font-size: 18px;
+}
+
+.achievements__block h3{
+	font-size: 12px;
+	font-weight: 500;
+}
+.about{
+	display:flex;
+	justify-content: flex-end;
+	align-items:center;
+	padding: 140px 0;
+}
+.about-wrap{
+	display: flex;
+	justify-content:flex-end;
+	text-align: left;
+}
+.about__title{
+	font-size: 30px;
+}
+.about__description{
+	margin:40px 0;
+	color:#787878;
+	line-height: 28px;
+	font-size: 16px;
+}
+.contact-form{
+	padding: 100px 0;
+}
+.contact__block{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+}
+.contact__block h1{
+	margin-bottom: 35px;
+	font-size: 30px;
+}
+.contact__block p{
+	color:#787878;
+	margin-bottom: 35px;
+	font-size: 16px;
+}
+.form-button{
+	width: 180px;
+	height: 55px;
+	background-color:#13c9c4;
+	color:#fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	border:none;
+	margin-top: 30px;	
+}
+
+.footer{
+	background-color: #141414;
+	padding: 100px 0;
+}
+.footer-container{
+	width: 1171px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	font-size: 15px;
+	text-decoration: none;
+}
+.footer-name{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+}
+.footer-name p{
+	margin-top: 27px;
+	line-height: 24px;
+	color:#bcbcbc;
+	font-size: 15px;
+	font-weight: 400;
+	margin-right: 230px;
+}
+.footer-contact{
+	line-height: 24px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 90px;
+	color:#bcbcbc;
+}
+.footer-page{
+
+	display: flex;
+	justify-content: space-between;
+
+}
+.footer-page div{
+	line-height: 24px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 55px;
+	color:#bcbcbc;
+}
+.footer-social{
+	line-height: 24px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 135px;
+}
