@@ -4,6 +4,10 @@
 	margin:0;
 	box-sizing: border-box;
 }
+a{
+		text-decoration: none;
+		color:#bcbcbc;
+}
 body{
 font-family: 'Montserrat', sans-serif;
 }
@@ -434,4 +438,57 @@ flex-direction: column;
 	font-size: 12px;
 	text-transform: uppercase;
 	border:none;
+	margin-top: 30px;	
+}
+.footer{
+	background-color: #141414;
+	padding: 100px 0;
+}
+.footer-container{
+	width: 1171px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	font-size: 15px;
+	text-decoration: none;
+}
+.footer-name{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+}
+.footer-name p{
+	margin-top: 27px;
+	line-height: 24px;
+	color:#bcbcbc;
+	font-size: 15px;
+	font-weight: 400;
+	margin-right: 230px;
+}
+.footer-contact{
+	line-height: 24px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 90px;
+	color:#bcbcbc;
+}
+.footer-page{
+
+	display: flex;
+	justify-content: space-between;
+
+}
+.footer-page div{
+	line-height: 24px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 55px;
+	color:#bcbcbc;
+}
+.footer-social{
+	line-height: 24px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 135px;
 }
