@@ -3,6 +3,7 @@
 *{
 	margin:0;
 	box-sizing: border-box;
+	outline: none;
 }
 a{
 		text-decoration: none;
@@ -493,4 +494,7 @@ flex-direction: column;
 	display: flex;
 	flex-direction: column;
 	margin-left: 135px;
+}
+.far{
+	font-size: 42px;
 }
